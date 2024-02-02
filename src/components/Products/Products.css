@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
